@@ -39,4 +39,12 @@ public class ForLoopTest {
         String actual = floop.returnNumbers(3, 7).trim();
         Assert.assertEquals(expected,actual);
     }
+
+
+    public static void main(String[] args)
+    {
+
+        System.out.println(floop.returnNumbers(3, 7).trim());
+    }
 }
+     
